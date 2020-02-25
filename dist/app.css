@@ -2,23 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans";
 }
 
 .d-flex {
   display: flex;
-}
-
-header {
-  background-color: black;
-}
-
-header .nav_bar {
-  width: 75%;
-  margin: 0 auto;
-}
-
-header .nav_bar img {
-  height: 75px;
 }
 
 main {
@@ -46,5 +34,34 @@ main .container .box img {
   max-width: 100%;
   display: block;
   margin: auto;
+}
+
+main .container .box h5 {
+  color: white;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+main .container .box h6 {
+  color: lightgrey;
+  font-size: 0.8em;
+}
+
+main .container .box p {
+  color: lightgrey;
+  font-size: 0.5em;
+}
+
+header {
+  background-color: black;
+}
+
+header .nav_bar {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header .nav_bar img {
+  height: 75px;
 }
 

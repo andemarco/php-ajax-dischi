@@ -1,0 +1,36 @@
+main {
+  background-color: #36393D;
+  .container {
+    width: $width75;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 10px;
+    .box {
+      max-width: 272px;
+      height: 320px;
+      padding: 10px;
+      text-align: center;
+      margin: 15px;
+      background-color: black;
+      color: white;
+      img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+      }
+      h5 {
+        color: white;
+        font-weight: bold;
+        padding-top: 3px;
+      }
+      h6 {
+        color: lightgrey;
+        font-size: 0.8em;
+      }
+      p {
+        color: lightgrey;
+        font-size: 0.5em;
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="dist/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <title></title>
   </head>
   <body>
