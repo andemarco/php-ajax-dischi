@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+header {
+  background-color: black;
+}
+
+header .nav_bar {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header .nav_bar img {
+  height: 75px;
+}
+
+main {
+  background-color: #36393D;
+}
+
+main .container {
+  width: 75%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+main .container .box {
+  max-width: 272px;
+  height: 320px;
+  padding: 10px;
+  text-align: center;
+  margin: 15px;
+  background-color: black;
+  color: white;
+}
+
+main .container .box img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+

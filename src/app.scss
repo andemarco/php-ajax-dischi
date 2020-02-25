@@ -1,0 +1,37 @@
+@import 'Partials/_commons.scss';
+@import 'Partials/_variables.scss';
+
+header {
+  background-color: black;
+  .nav_bar {
+    width: $width75;
+    margin: 0 auto;
+    img {
+      height: 75px;
+    }
+  }
+}
+
+main {
+  background-color: #36393D;
+  .container {
+    width: $width75;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 10px;
+    .box {
+      max-width: 272px;
+      height: 320px;
+      padding: 10px;
+      text-align: center;
+      margin: 15px;
+      background-color: black;
+      color: white;
+      img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+}
