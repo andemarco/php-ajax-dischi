@@ -1,3 +1,6 @@
+<?php include  __DIR__ . '/src/Partials/server.php';?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -13,12 +16,14 @@
     </header>
     <main>
       <div class="d-flex container">
-        <div class="box">
-          <img src="https://www.ondarock.it/images/cover/makai_252x252_1535803175.jpg" alt="">
-          <h5>Comfort Zone</h5>
-          <h6>Makai</h6>
-          <p>2018</p>
-        </div>
+        <?php foreach ($database as $disk) { ?>
+          <div class="box">
+            <img src="<?php echo $disk['poster'] ?>" alt="">
+            <h5><?php echo $disk['title'] ?></h5>
+            <h6><?php echo $disk['author'] ?></h6>
+            <p><?php echo $disk['year'] ?></p>
+          </div>
+        <?php } ?>
       </div>
     </main>
     <footer>
