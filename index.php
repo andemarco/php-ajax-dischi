@@ -22,10 +22,10 @@
     </footer>
     <script id="entry-template" type="text/x-handlebars-template">
       <div class="box">
-        <img src="" alt="">
-        <h5></h5>
-        <h6></h6>
-        <p></p>
+        <img src="{{{poster}}}" alt="{{{title}}}">
+        <h5>{{title}}</h5>
+        <h6>{{author}}</h6>
+        <p>{{year}}</p>
       </div>
     </script>
     <script src="dist/app.js" charset="utf-8"></script>
