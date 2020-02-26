@@ -1,3 +1,6 @@
+<?php include  __DIR__ . '/src/Partials/database.php';?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -14,20 +17,18 @@
     </header>
     <main>
       <div class="d-flex container">
-
+        <?php foreach ($database as $disk) { ?>
+          <div class="box">
+            <img src="<?php echo $disk['poster'] ?>" alt="">
+            <h5><?php echo $disk['title'] ?></h5>
+            <h6><?php echo $disk['author'] ?></h6>
+            <p><?php echo $disk['year'] ?></p>
+          </div>
+        <?php } ?>
       </div>
     </main>
     <footer>
 
     </footer>
-    <script id="entry-template" type="text/x-handlebars-template">
-      <div class="box">
-        <img src="" alt="">
-        <h5></h5>
-        <h6></h6>
-        <p></p>
-      </div>
-    </script>
-    <script src="dist/app.js" charset="utf-8"></script>
   </body>
 </html>

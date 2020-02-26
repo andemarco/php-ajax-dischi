@@ -9,6 +9,19 @@
   display: flex;
 }
 
+header {
+  background-color: black;
+}
+
+header .nav_bar {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header .nav_bar img {
+  height: 75px;
+}
+
 main {
   background-color: #36393D;
 }
@@ -21,9 +34,10 @@ main .container {
 }
 
 main .container .box {
-  max-width: 272px;
-  height: 320px;
-  padding: 10px;
+  width: calc((100% / 3) - 30px);
+  height: auto;
+  padding: 25px;
+  padding-bottom: 30px;
   text-align: center;
   margin: 15px;
   background-color: black;
@@ -31,7 +45,7 @@ main .container .box {
 }
 
 main .container .box img {
-  max-width: 100%;
+  width: 100%;
   display: block;
   margin: auto;
 }
@@ -50,18 +64,5 @@ main .container .box h6 {
 main .container .box p {
   color: lightgrey;
   font-size: 0.5em;
-}
-
-header {
-  background-color: black;
-}
-
-header .nav_bar {
-  width: 75%;
-  margin: 0 auto;
-}
-
-header .nav_bar img {
-  height: 75px;
 }
 

@@ -6,15 +6,16 @@ main {
     flex-wrap: wrap;
     padding: 10px;
     .box {
-      max-width: 272px;
-      height: 320px;
-      padding: 10px;
+      width: calc((100% / 3) - 30px);
+      height: auto;
+      padding: 25px;
+      padding-bottom: 30px;
       text-align: center;
       margin: 15px;
       background-color: black;
       color: white;
       img {
-        max-width: 100%;
+        width: 100%;
         display: block;
         margin: auto;
       }
